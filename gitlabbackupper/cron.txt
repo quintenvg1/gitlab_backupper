@@ -1,0 +1,1 @@
+0 0 * * 0 cd /opt/gitlabbackupper && /usr/bin/python3 /opt/gitlabbackupper/backup.py >> /opt/gitlabbackupper/backup.log 2>&1
