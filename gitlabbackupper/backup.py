@@ -10,7 +10,7 @@ print("changing directory to clones")
 os.chdir("clones")
 print("making backups")
 for line in f:
-    line = (line.split(" ")[5].replace(",","").replace('"',"").replace('\n',''))
+    #line = (line.split(" ")[5].replace(",","").replace('"',"").replace('\n',''))
     os.system("git clone --mirror "+ str(line))
     os.chdir(".")
 print("backup created")
